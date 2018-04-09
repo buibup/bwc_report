@@ -8,6 +8,8 @@ namespace bwc_report
 {
     public static class GlobalConfig
     {
+        public static decimal MileWalkTest { get; set; }
+
         public static string CnnString(string name)
         {
             return ConfigurationManager.ConnectionStrings[name].ConnectionString;

@@ -92,6 +92,8 @@
     <Compile Include="DataAccess\CacheConnector.cs" />
     <Compile Include="DataAccess\DbCacheQuery.cs" />
     <Compile Include="DataAccess\ICacheConnection.cs" />
+    <Compile Include="DataAccess\ISqlConnection.cs" />
+    <Compile Include="DataAccess\SqlConnector.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -104,6 +106,12 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="GlobalConfig.cs" />
+    <Compile Include="Helper\Calculate.cs" />
+    <Compile Include="Models\BioGeneral.cs" />
+    <Compile Include="Models\BioMileWalkTest.cs" />
+    <Compile Include="Models\BioPhysicalTest.cs" />
+    <Compile Include="Models\Evaluation.cs" />
+    <Compile Include="Models\IsometricTest.cs" />
     <Compile Include="Models\QBWCBIOPHY.cs" />
     <Compile Include="Models\Results.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -141,7 +149,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>58487</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
