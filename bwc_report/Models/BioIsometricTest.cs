@@ -5,7 +5,7 @@ using System.Web;
 
 namespace bwc_report.Models
 {
-    public class IsometricTest
+    public class BioIsometricTest
     {
         public decimal Trunkflexion { get; set; }
         public string TrunkflexionUnit { get; set; }
